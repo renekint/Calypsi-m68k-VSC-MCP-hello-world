@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0", "tasks": [
+    {
+    "label": "build", "type": "shell", "command": "make -k hello.hex", "options": {
+    "cwd": "${workspaceRoot}" },
+    "problemMatcher": [ "$gcc"
+    ] },
+    {
+    "label": "clean",
+    "type": "shell",
+    "command": "make -k clean", "problemMatcher": [],
+    }
+    ] }
